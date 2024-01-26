@@ -17,7 +17,7 @@ hl{
     SELECTE ALL SQUARES IN THE ARRAY
 -----------------------------------------------------*/    
 .container .squares:nth-child(-n+4) {
-    background-image: url("../Images/icons.png");
+    background-image: url("../Images/icons/icons.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -56,7 +56,7 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 HOVER, TRANSLATE & TRANSFORM EFFECTS 
 */
 .container .squares:nth-child(-n+4):hover{
-     background-image: url("../Images/icons2.png");
+     background-image: url("../Images/icons/icons2.png");
      transform: scale(.5);
      animation-name: race;
      animation-duration: 2.5s;
@@ -79,7 +79,7 @@ HOVER, TRANSLATE & TRANSFORM EFFECTS
 @keyframes race {
     0%, 100%{
         transform: translateY(0px);
-        background-image: url('../Images/icons2.png');
+        background-image: url('../Images/icons/icons2.png');
     }
     50%{
         transform: translateY(300px);
