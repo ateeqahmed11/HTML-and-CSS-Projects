@@ -10,7 +10,7 @@ h1 {
 }
 form input[type="text"] {
     width: 208;
-    margin: Spx;
+    margin: 5px;
     border:2px solid peachpuff;
     border-radius: 7px;
 }
